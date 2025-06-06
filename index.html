@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LCK Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>LCK Search</h1>
+    <input type="text" id="searchInput" placeholder="Type something..." />
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h2>Play Minecraft</h2>
+      <button onclick="window.open('https://eaglercraft.com/mc/1.8.8', '_blank')">▶️ Play</button>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
